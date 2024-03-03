@@ -1,0 +1,11 @@
+db.people.insertMany([
+	{ name: "Samantha Owen", profession: "chef" ,age: 24, hobbies_list: ["puzzles", "travelling"] },
+	{ name: "Pratik Shah ", profession: "chef" ,age: 51, hobbies_list: ["sports"] },
+	{ name: "Jack Ross", profession: "doctor" ,age: 33, hobbies_list: ["cooking", "reading", "sports"] },
+	{ name: "Meera Patel", profession: "doctor" ,age: 37, hobbies_list: ["travelling"] },
+	{ name: "Alex Bell", profession: "accountant" ,age: 26, hobbies_list: ["movies", "sports"] },
+	{ name: "Jose Ramon", profession: "architect" ,age: 43, hobbies_list: ["cooking", "reading", "painting"] },
+	{ name: "Jess Raymond", profession: "accountant" ,age: 40, hobbies_list: []},
+])
+
+
