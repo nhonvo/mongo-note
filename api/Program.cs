@@ -35,24 +35,4 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
-System.Console.WriteLine("Aggregate: ");
-app.Services.GetRequiredService<BooksService>().Aggregate();
-
-System.Console.WriteLine("Group: ");
-app.Services.GetRequiredService<BooksService>().Group();
 app.Run();
-
-var document = new BsonDocument
-{
-    {"a", "a"},
-    {"b", 1}
-};
-
-class Sample
-{
-    [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; }
-    [BsonElement("sample_name")]
-    public string Name { get; set; }
-}

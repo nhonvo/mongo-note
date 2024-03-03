@@ -26,10 +26,10 @@ git clone https://github.com/nhonvo/mongo-note.git
 ```
 
 - Open the project in your preferred C# development environment.
-
 - Update the MongoDB connection string in the `appsettings.json` file with your MongoDB server details.
-
 - Run the application to see the MongoDB C# driver in action.
+- 
+![alt text](assert/swagger.png)
 
 ## Reference Resources
 
