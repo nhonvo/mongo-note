@@ -3,7 +3,9 @@
 This repository contains a demonstration of MongoDB integration using the C# driver, along with relevant resources and links.
 
 ## Associate developer MongoDB
+
 ![certificate](./assert/cert.jpg)
+
 ## MongoDB Demo using C# Driver
 
 ### Prerequisites
@@ -17,23 +19,20 @@ Install-Package MongoDB.Driver
 
 ### Running the Demo
 
-1. Clone this repository:
+- Clone this repository:
 
 ```bash
 git clone https://github.com/nhonvo/mongo-note.git
 ```
 
-2. Open the project in your preferred C# development environment.
+- Open the project in your preferred C# development environment.
 
-3. Update the MongoDB connection string in the `appsettings.json` file with your MongoDB server details.
+- Update the MongoDB connection string in the `appsettings.json` file with your MongoDB server details.
 
-4. Run the application to see the MongoDB C# driver in action.
+- Run the application to see the MongoDB C# driver in action.
 
 ## Reference Resources
 
-- 
-
-## Additional Files
-
-- Sample Assert File
-
+- [Mongo with Csharp](https://nhonvo.github.io/2024/03/01/mongo-with-csharp/)
+- [Mongodb theory and examples code](https://nhonvo.github.io/2024/02/15/mongodb-theory-and-examples-code/)
+- [Exploring MongoDB and mongosh in Bash](https://nhonvo.github.io/2024/01/01/Exploring-MongoDB-and-mongosh-in-Bash-Senior-note/)
